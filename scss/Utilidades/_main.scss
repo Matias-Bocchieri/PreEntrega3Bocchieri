@@ -1,0 +1,120 @@
+@import "./variables";
+@import "./mixins";
+
+* {
+    @include margin-padding;
+}
+
+body {
+    height: 100vh;
+
+}
+
+#mainIndex {
+    height: 83.3vh;
+}
+
+
+.mainTriplreyesports {
+    height: fit-content;
+    background-color: $color-body ;
+
+    h1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    h2 {
+        margin: 10px;
+    }
+
+    div {
+        display: flex;
+
+        img {
+
+            border: $marco-dorado;
+            margin-right: 40px;
+            margin-left: 40px;
+        }
+
+        p {
+            margin: 10px;
+            font-size: 1.5rem;
+        }
+    }
+
+    div {
+        display: flex;
+        justify-content: center;
+
+        iframe {
+            border: $marco-dorado;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+.mainNosotros {
+    height: 83.3vh ;
+    background-color: $color-body;
+
+    div {
+        h1 {
+            display: flex;
+            justify-content: center;
+        }
+
+        h2 {
+            margin: 10px;
+        }
+
+        h6 {
+            font-size: 1.5rem;
+            margin: 10px;
+        }
+    }
+
+    div {
+
+        img {
+            border: $marco-dorado;
+            display: block;
+            margin: auto;
+            margin-top: 15px;
+        }
+    }
+}
+
+.mainTuespacio {
+    height: 83.3vh;
+    background-color: $color-body;
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    form {
+        div {
+            margin: 10px;
+
+            label {
+                font-size: 2rem;
+            }
+
+        }
+
+        div {
+            margin: 10px;
+
+            p {
+                font-size: 2rem;
+            }
+
+            textarea {
+                width: 50vw;
+                height: 50vh;
+            }
+        }
+    }
+}

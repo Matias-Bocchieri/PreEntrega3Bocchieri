@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  height: 100vh; }
+
+#mainIndex {
+  height: 83.3vh; }
+
+.mainTriplreyesports {
+  height: fit-content;
+  background-color: #6c757d; }
+  .mainTriplreyesports h1 {
+    display: flex;
+    justify-content: center; }
+  .mainTriplreyesports h2 {
+    margin: 10px; }
+  .mainTriplreyesports div {
+    display: flex; }
+    .mainTriplreyesports div img {
+      border: 5px ridge goldenrod;
+      margin-right: 40px;
+      margin-left: 40px; }
+    .mainTriplreyesports div p {
+      margin: 10px;
+      font-size: 1.5rem; }
+  .mainTriplreyesports div {
+    display: flex;
+    justify-content: center; }
+    .mainTriplreyesports div iframe {
+      border: 5px ridge goldenrod;
+      margin-bottom: 10px; }
+
+.mainNosotros {
+  height: 83.3vh;
+  background-color: #6c757d; }
+  .mainNosotros div h1 {
+    display: flex;
+    justify-content: center; }
+  .mainNosotros div h2 {
+    margin: 10px; }
+  .mainNosotros div h6 {
+    font-size: 1.5rem;
+    margin: 10px; }
+  .mainNosotros div img {
+    border: 5px ridge goldenrod;
+    display: block;
+    margin: auto;
+    margin-top: 15px; }
+
+.mainTuespacio {
+  height: 83.3vh;
+  background-color: #6c757d; }
+  .mainTuespacio h1 {
+    font-size: 2rem; }
+  .mainTuespacio form div {
+    margin: 10px; }
+    .mainTuespacio form div label {
+      font-size: 2rem; }
+  .mainTuespacio form div {
+    margin: 10px; }
+    .mainTuespacio form div p {
+      font-size: 2rem; }
+    .mainTuespacio form div textarea {
+      width: 50vw;
+      height: 50vh; }
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .mainTriplreyesports div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+  .mainTriplreyesports div iframe {
+    height: 25vh; }
+  .mainNosotros {
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+    .mainNosotros div {
+      padding: 10px; }
+      .mainNosotros div img {
+        height: 200px; }
+  .mainTuespacio {
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; } }

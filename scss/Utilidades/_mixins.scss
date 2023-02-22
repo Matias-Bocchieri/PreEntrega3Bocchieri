@@ -1,0 +1,15 @@
+@mixin display-nowrap {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+@mixin width-height {
+    width: 100vw;
+    height: 100vh;
+}
+
+@mixin margin-padding {
+    margin: 0;
+    padding: 0;
+    
+}

@@ -1,0 +1,19 @@
+@import "./variables";
+@import "./mixins";
+
+* {
+    @include margin-padding;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+header {
+    height: 5vh;
+}
+
+footer {
+    height: 15vh;
+}
